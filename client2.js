@@ -13,10 +13,11 @@ let userMessage = null;
 let chatGptPrompt = "You are a sales consultant on a shoe sales site, your job is to answer customer questions and help them buy"; 
 let firstMessage = "Hi there 👋<br>How can I help you today?"; 
 // Set colors for chatbot header and toggler
-setElementColor(".chatbot header", 'red','black');
-setElementColor(".chatbot-toggler", 'red','black');
-setElementColor(".chatbox", 'white','black');
-
+setElementColor(".chatbot header", 'red','black'); // chatbot hader color
+setElementColor(".chatbot-toggler", 'red',''); // button background color
+setElementColor(".chatbot-toggler span", '','white'); // button icon color
+setElementColor(".chatbox", 'white','black'); // chatbot body background color
+ 
 
 const inputInitHeight = chatInput.scrollHeight;
 
