@@ -12,10 +12,15 @@ const sendChatBtn = document.querySelector(".chat-input span");
 let userMessage = null; 
 let chatGptPrompt = "You are a sales consultant on a shoe sales site, your job is to answer customer questions and help them buy"; 
 let firstMessage = "Hi there 👋<br>How can I help you today?"; 
-// Set colors for chatbot header and toggler
-setElementColor(".chatbot header", '#724ae8','white');
-setElementColor(".chatbot-toggler", '#724ae8','white');
-setElementColor(".chatbox", 'white','red');
+
+// setElementColor(".chatbot header", 'red','black'); // chatbot hader color
+// setElementColor(".chatbot-toggler", 'red',''); // button background color
+// setElementColor(".chatbot-toggler span", '','white'); // button icon color
+// setElementColor(".chatbox", 'white','black'); // chatbot body background color
+ 
+setElementColor(".chatbot header", 'red','black');
+setElementColor(".chatbot-toggler", 'blue','');
+setElementColor(".chatbot-toggler span", '','red')
 
 const inputInitHeight = chatInput.scrollHeight;
 
